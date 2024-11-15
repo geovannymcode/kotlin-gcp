@@ -1,0 +1,1 @@
+INSERT INTO speakers (name, country) VALUES ('Geovanny Mendoza', 'Colombia');
