@@ -1,1 +1,1 @@
-INSERT INTO speakers (name, country) VALUES ('Geovanny Mendoza', 'Colombia');
+INSERT INTO speakers (id, name, country) VALUES (nextval('speaker_id_seq'),'Geovanny Mendoza', 'Colombia');
