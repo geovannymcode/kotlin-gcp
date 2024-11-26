@@ -117,10 +117,10 @@ spring.datasource.password=<YOUR_DB_PASSWORD>
 ## 🌟 Conéctate conmigo
 ¡Sígueme para más contenido y proyectos como este!
 
-- Web: [Geovanny Mendoza](https://geovannycode.com/){:target="_blank"}
-- GitHub: [@geovannymcode](https://github.com/geovannymcode){:target="_blank"}
-- Twitter: [@geovannycode](https://x.com/geovannycode){:target="_blank"}
-- LinkedIn: [Geovanny Mendoza](https://www.linkedin.com/in/geovannycode/){:target="_blank"}
-- YouTube: [Geovanny Mendoza](https://www.youtube.com/@geovannymendozagonzalez9119){:target="_blank"}
+- Web: [Geovanny Mendoza](https://geovannycode.com/)
+- GitHub: [@geovannymcode](https://github.com/geovannymcode)
+- Twitter: [@geovannycode](https://x.com/geovannycode)
+- LinkedIn: [Geovanny Mendoza](https://www.linkedin.com/in/geovannycode/)
+- YouTube: [Geovanny Mendoza](https://www.youtube.com/@geovannymendozagonzalez9119)
 
 
