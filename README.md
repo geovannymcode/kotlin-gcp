@@ -104,9 +104,10 @@ spring.datasource.password=<YOUR_DB_PASSWORD>
 
 | Método | Endpoint         | Descripción                     |
 |--------|-------------------|---------------------------------|
-| GET    | `/api/speakers`      | Lista todos los usuarios.      |
-| POST   | `/api/speakers`      | Crea un nuevo usuario.         |
-| GET    | `/api/speakers/{id}` | Consulta un usuario por ID.    |
+| GET    | `/api/speakers`      | Lista todos los speakers.      |
+| POST   | `/api/speakers`      | Crea un nuevo speaker.         |
+| GET    | `/api/speakers/{id}` | Consulta un speaker por ID.    |
+| PUT    | `/api/speakers/{id}` | Actualizar un speaker por ID.    |
 
 
 ## 🛡️ Mejores Prácticas
