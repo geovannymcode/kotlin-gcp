@@ -122,7 +122,6 @@ spring.datasource.password=<YOUR_DB_PASSWORD>
 - GitHub: [@geovannymcode](https://github.com/geovannymcode)
 - Twitter: [@geovannycode](https://x.com/geovannycode)
 - LinkedIn: [Geovanny Mendoza](https://www.linkedin.com/in/geovannycode/)
-- YouTube: [Geovanny Mendoza](https://www.youtube.com/@geovannymendozagonzalez9119)
 - Bluesky: [Geovanny Mendoza](https://bsky.app/profile/geovannycode.bsky.social)
 
 
