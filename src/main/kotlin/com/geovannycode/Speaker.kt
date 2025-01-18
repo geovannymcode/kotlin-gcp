@@ -11,7 +11,8 @@ import jakarta.persistence.Table
 @Table(name = "speakers")
 data class Speaker(
     @Id @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "speaker_id_generator")
-    @SequenceGenerator(name = "speaker_id_generator", sequenceName = "speaker_id_seq") val id: Long? = null,
+    @SequenceGenerator(name = "speaker_id_generator", sequenceName = "speaker_id_seq")
+    val id: Long? = null,
     val name: String,
     val country: String
 )

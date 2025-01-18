@@ -1,7 +1,7 @@
 services:
   postgres_gcp:
     container_name: "postgres_gcp"
-    image: 'postgres:16'
+    image: 'postgres:17'
     env_file: ./.env
     ports:
       - ${DB_LOCAL_PORT}:${DB_DOCKER_PORT}
@@ -9,7 +9,6 @@ services:
       POSTGRES_USER: ${POSTGRES_USER}
       POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
       POSTGRES_DB: ${POSTGRES_DB}
-      DATABASE_URL: ${DATABASE_URL}
     #volumes:
     #  - postgres-data:${DB_VOLUME_URL}
 #volumes:

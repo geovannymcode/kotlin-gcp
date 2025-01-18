@@ -20,7 +20,7 @@ class SpeakerController(private val service: SpeakerService) {
 
     @GetMapping("/{id}")
     fun getSpeaker(@PathVariable id: Long) : ResponseEntity<Speaker> =
-    service.getSpeaker(id).map { ResponseEntity.ok(it) }
+    service.getSpeaker(id).map { speaker -> ResponseEntity.ok(speaker) }
     .orElse(ResponseEntity.notFound().build())
 
     @PostMapping
@@ -42,5 +42,4 @@ class SpeakerController(private val service: SpeakerService) {
             ResponseEntity.notFound().build()
         }
     }
-
 }
